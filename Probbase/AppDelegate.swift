@@ -5,7 +5,6 @@
 //  Created by Lance Tugade on 10/9/17.
 //  Copyright © 2017 Lance Tugade. All rights reserved.
 //
-// checkgit
 import UIKit
 import Firebase
 
