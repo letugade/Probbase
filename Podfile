@@ -10,6 +10,7 @@ target 'Probbase' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'ChameleonFramework'
+  pod 'TesseractOCRiOS', '4.0.0'
   # Pods for Probbase
   target 'ProbbaseTests' do
     inherit! :search_paths

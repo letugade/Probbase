@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0939E32A3AF7EC377DE954A4 /* Pods_Probbase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136F0D38C28A2A4E82352EFB /* Pods_Probbase.framework */; };
 		1D437C0F1F991982006564DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D437C0E1F991982006564DD /* GoogleService-Info.plist */; };
+		1D437C111F99309F006564DD /* Probbase Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D437C101F99309F006564DD /* Probbase Background.png */; };
 		1D7C036C1F8B7467001B89C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7C036B1F8B7467001B89C4 /* AppDelegate.swift */; };
 		1D7C036E1F8B7467001B89C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7C036D1F8B7467001B89C4 /* ViewController.swift */; };
 		1D7C03711F8B7467001B89C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D7C036F1F8B7467001B89C4 /* Main.storyboard */; };
@@ -42,6 +43,8 @@
 /* Begin PBXFileReference section */
 		136F0D38C28A2A4E82352EFB /* Pods_Probbase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Probbase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D437C0E1F991982006564DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1D437C101F99309F006564DD /* Probbase Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Probbase Background.png"; path = "../../Downloads/Probbase Background.png"; sourceTree = "<group>"; };
+		1D437C121F9930A1006564DD /* Probbase Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Probbase Background.png"; path = "../../../Downloads/Probbase Background.png"; sourceTree = "<group>"; };
 		1D7C03681F8B7467001B89C4 /* Probbase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Probbase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7C036B1F8B7467001B89C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D7C036D1F8B7467001B89C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +111,7 @@
 		1D7C035F1F8B7467001B89C4 = {
 			isa = PBXGroup;
 			children = (
+				1D437C101F99309F006564DD /* Probbase Background.png */,
 				1D7C036A1F8B7467001B89C4 /* Probbase */,
 				1D7C037F1F8B7468001B89C4 /* ProbbaseTests */,
 				1D7C038A1F8B7468001B89C4 /* ProbbaseUITests */,
@@ -137,6 +141,7 @@
 				1D7C036F1F8B7467001B89C4 /* Main.storyboard */,
 				1D7C03721F8B7467001B89C4 /* Assets.xcassets */,
 				1D7C03741F8B7467001B89C4 /* LaunchScreen.storyboard */,
+				1D437C121F9930A1006564DD /* Probbase Background.png */,
 				1D437C0E1F991982006564DD /* GoogleService-Info.plist */,
 				1D7C03771F8B7468001B89C4 /* Info.plist */,
 			);
@@ -290,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D437C111F99309F006564DD /* Probbase Background.png in Resources */,
 				1D7C03761F8B7467001B89C4 /* LaunchScreen.storyboard in Resources */,
 				1D437C0F1F991982006564DD /* GoogleService-Info.plist in Resources */,
 				1D7C03731F8B7467001B89C4 /* Assets.xcassets in Resources */,
@@ -436,6 +442,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -445,6 +452,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
